@@ -67,7 +67,7 @@ const LatestActivities = () => {
           renderItem={(item) => {
             const deal =
               deals?.data.find((deal) => deal.id == item.targetId) || undefined;
-            console.log(deal);
+
             return (
               <List.Item>
                 <List.Item.Meta
