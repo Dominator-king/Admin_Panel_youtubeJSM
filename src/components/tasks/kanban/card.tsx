@@ -45,14 +45,6 @@ const ProjectCard = ({
   const dropDownItems = useMemo(() => {
     const dropItems: MenuProps["items"] = [
       {
-        label: "View Card",
-        key: "1",
-        icon: <EyeOutlined />,
-        onClick: () => {
-          edit("tasks", id, "replace");
-        },
-      },
-      {
         danger: true,
         label: "Delete Card",
         key: "2",
